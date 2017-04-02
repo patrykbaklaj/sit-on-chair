@@ -141,7 +141,7 @@ div.main a {
 
 #sectionSecond {
   background-color: white;
-  height: 300px;
+  /*margin-bottom: 100px;*/
 }
 
 .images {
@@ -198,4 +198,280 @@ div.images:last-child {
   height: 0.5em;
 
 
+}
+
+.leftOnes {
+  margin-top: 60%;
+}
+
+.images__content {
+  background-color: rgba(242, 242, 242, 0.4);
+  width: 105%;
+  height: 3em;
+  display: block;
+}
+
+#sectionPrices {
+  margin-top: 30px;
+  padding-top: 30px;
+  background-color: #f0f0f0;
+  padding-bottom: 30px;
+}
+
+div.price__box {
+  margin-top: 50px;
+  width: 30%;
+  /*height: 400px;*/
+  position: relative;
+  border: 1px solid #c9c9c9;
+  text-align: center;
+  background-color: white;
+  float: left;
+}
+
+[class*="circle"] {
+  border: 1px solid #c9c9c9;
+  position: absolute;
+  border-radius: 50%;
+}
+
+div.circle {
+  width: 60px;
+  height: 60px;
+  top: -7.5%;
+  left: 40%;
+  background: white;
+}
+
+div.circle__small {
+  width: 35px;
+  height: 35px;
+  top: 18.5%;
+  left: 19%;
+  background-color: #c9c9c9;
+}
+
+.price__box h3 {
+  margin-top: 15%;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #26c7a9;
+  font-size: 24px;
+
+}
+
+.mainCircle {
+  height: 130px;
+  width: 130px;
+  border: 1px solid #c9c9c9;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 2em;
+}
+
+.mainCircle p:first-child {
+  margin-top: 20%;
+  font-size: 40px;
+  color: #c9c9c9;
+  font-weight: bold;
+}
+
+.mainCircle sup {
+  font-size: 16px;
+}
+
+.mainCircle p:last-child {
+  color: #c9c9c9;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 0.7em;
+}
+
+.price__box h4:first-of-type {
+  margin-top: 2em;
+}
+
+.price__box h4:nth-of-type(odd) {
+  background-color: #E3E3E3;
+  line-height: 3em;
+  color:#9c9c9c;
+  font-weight: 400;
+}
+
+.price__box h4:nth-of-type(even){
+  background-color: #f0f0f0;
+  line-height: 3em;
+  font-weight: 400;
+  color: #969696;
+}
+
+.price__box a {
+  display: block;
+  text-decoration: none;
+  margin: 125px auto 20px auto;
+  width: 50%;
+  line-height: 2.5em;
+  background-color: #26c7a9;
+  color: white;
+  border-radius: 8px;
+
+}
+
+.hr__style {
+  width: 25%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #26c7a9;
+  background-color: #26c7a9;
+  height: 0.5em;
+}
+
+.container h3 {
+  font-weight: 400;
+}
+
+#middle {
+  margin-right: 5%;
+  margin-left: 5%;
+  background-color: #26c7a9;
+  border-color: #26c7a9;
+}
+
+#middle div.circle {
+  background-color: #26c7a9;
+  border-color: #26c7a9;
+}
+
+#middle div.circle__small {
+  background-color: white;
+  border-color: #26c7a9;
+}
+
+#middle h3 {
+  color: white;
+}
+
+#middle .mainCircle {
+  background-color: white;
+  border-color: #26c7a9;
+}
+
+#middle p, span {
+  color: #26c7a9;
+}
+
+#middle a {
+  background-color: white;
+  color: #26c7a9;
+}
+
+div.price__box:last-of-type a {
+  margin: 30px auto 20px auto;
+}
+
+#middle h4:nth-last-of-type(odd) {
+  background-color: white;
+}
+
+#middle a {
+  margin-top: 78px;
+}
+
+#contact {
+  padding-top: 30px;
+}
+
+.contactForm {
+  width: 55%;
+  margin-top: 30px;
+  float: left;
+}
+
+.contactForm > * {
+  display: block;
+  margin-top: 2em;
+  width: 100%;
+  border: 1px solid #26c7a9;
+}
+
+.contactForm > input {
+  line-height: 3em;
+}
+
+.contactForm > *::placeholder {
+  font-family: "Raleway", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 1em;
+  opacity: 0.6;
+}
+
+.contactForm * {
+  font-size: 14px;
+  color: grey;
+  padding-left: 15px;
+}
+
+.confirm {
+  float: right;
+  width: 40%;
+}
+
+img.redChair {
+  width: 70%;
+  height: auto;
+  display: block;
+  margin-bottom: 1em;
+}
+
+img.check {
+  border: 1px solid #26c7a9;
+  width: 15%;
+  height: auto;
+  float: left;
+  padding: 3px;
+}
+
+.confirm h4 {
+  width: 70%;
+  display: inline-block;
+  margin-left: 10px;
+  line-height: 1em;
+  margin-top: 12px;
+}
+
+footer {
+  margin: 80px auto 30px auto;
+}
+
+.copyrights {
+  width: 55%;
+  float: left;
+  margin-top: 26px;
+}
+
+.copyrights p {
+  color: #c9c9c9;
+}
+
+.social {
+  width: 40%;
+  float: right;
+}
+
+.social img {
+  width: 10%;
+  height: auto;
+}
+
+.social h4 {
+  display: inline-block;
+  margin-left: 40px;
+  color: #c9c9c9;
+  font-weight: 400;
+}
+
+.social span {
+  color: #c9c9c9;
+  font-weight: 900;
 }
