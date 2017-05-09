@@ -1,2 +1,2 @@
 # sit-on-chair
-Simple first-page using HTML and CSS
+Simple first-page using HTML, CSS and JS.
